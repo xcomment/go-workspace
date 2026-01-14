@@ -5,9 +5,54 @@ package restful
 // that can be found in the LICENSE file.
 
 import (
+	"net/http"
 	"regexp"
 	"strconv"
 	"strings"
+)
+
+// Type aliases for types defined elsewhere in the package
+type Request struct {
+	Request *http.Request
+}
+
+type Response struct {
+	http.ResponseWriter
+}
+
+type FilterChain struct{}
+
+func (f *FilterChain) ProcessFilter(req *Request, resp *Response) {}
+
+// Container type
+type Container struct{}
+
+var DefaultContainer = &Container{}
+
+func (c *Container) computeAllowedMethods(req *Request) []string {
+	return []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}
+}
+
+// Header constants
+const (
+	HEADER_Origin                        = "Origin"
+	HEADER_AccessControlRequestMethod    = "Access-Control-Request-Method"
+	HEADER_AccessControlRequestHeaders   = "Access-Control-Request-Headers"
+	HEADER_AccessControlAllowMethods     = "Access-Control-Allow-Methods"
+	HEADER_AccessControlAllowHeaders     = "Access-Control-Allow-Headers"
+	HEADER_AccessControlAllowOrigin      = "Access-Control-Allow-Origin"
+	HEADER_AccessControlAllowCredentials = "Access-Control-Allow-Credentials"
+	HEADER_AccessControlExposeHeaders    = "Access-Control-Expose-Headers"
+	HEADER_AccessControlMaxAge           = "Access-Control-Max-Age"
+)
+
+// Tracing variables
+var (
+	trace       = false
+	traceLogger interface {
+		Print(v ...interface{})
+		Printf(format string, v ...interface{})
+	}
 )
 
 // CrossOriginResourceSharing is used to create a Container Filter that implements CORS.
@@ -37,7 +82,6 @@ type CrossOriginResourceSharing struct {
 	AllowedMethods []string
 	MaxAge         int // number of seconds before requiring new Options request
 	CookiesAllowed bool
-	Container      *Container
 
 	allowedOriginPatterns []*regexp.Regexp // internal field for origin regexp check.
 }
@@ -81,11 +125,7 @@ func (c CrossOriginResourceSharing) doActualRequest(req *Request, resp *Response
 
 func (c *CrossOriginResourceSharing) doPreflightRequest(req *Request, resp *Response) {
 	if len(c.AllowedMethods) == 0 {
-		if c.Container == nil {
-			c.AllowedMethods = DefaultContainer.computeAllowedMethods(req)
-		} else {
-			c.AllowedMethods = c.Container.computeAllowedMethods(req)
-		}
+		c.AllowedMethods = DefaultContainer.computeAllowedMethods(req)
 	}
 
 	acrm := req.Request.Header.Get(HEADER_AccessControlRequestMethod)
@@ -112,8 +152,8 @@ func (c *CrossOriginResourceSharing) doPreflightRequest(req *Request, resp *Resp
 			}
 		}
 	}
-	resp.AddHeader(HEADER_AccessControlAllowMethods, strings.Join(c.AllowedMethods, ","))
-	resp.AddHeader(HEADER_AccessControlAllowHeaders, acrhs)
+	resp.Header().Add(HEADER_AccessControlAllowMethods, strings.Join(c.AllowedMethods, ","))
+	resp.Header().Add(HEADER_AccessControlAllowHeaders, acrhs)
 	c.setOptionsHeaders(req, resp)
 
 	// return http 200 response, no body
@@ -124,7 +164,7 @@ func (c CrossOriginResourceSharing) setOptionsHeaders(req *Request, resp *Respon
 	c.setAllowOriginHeader(req, resp)
 	c.checkAndSetAllowCredentials(resp)
 	if c.MaxAge > 0 {
-		resp.AddHeader(HEADER_AccessControlMaxAge, strconv.Itoa(c.MaxAge))
+		resp.Header().Add(HEADER_AccessControlMaxAge, strconv.Itoa(c.MaxAge))
 	}
 }
 
@@ -155,19 +195,19 @@ func (c CrossOriginResourceSharing) isOriginAllowed(origin string) bool {
 func (c CrossOriginResourceSharing) setAllowOriginHeader(req *Request, resp *Response) {
 	origin := req.Request.Header.Get(HEADER_Origin)
 	if c.isOriginAllowed(origin) {
-		resp.AddHeader(HEADER_AccessControlAllowOrigin, origin)
+		resp.Header().Add(HEADER_AccessControlAllowOrigin, origin)
 	}
 }
 
 func (c CrossOriginResourceSharing) checkAndSetExposeHeaders(resp *Response) {
 	if len(c.ExposeHeaders) > 0 {
-		resp.AddHeader(HEADER_AccessControlExposeHeaders, strings.Join(c.ExposeHeaders, ","))
+		resp.Header().Add(HEADER_AccessControlExposeHeaders, strings.Join(c.ExposeHeaders, ","))
 	}
 }
 
 func (c CrossOriginResourceSharing) checkAndSetAllowCredentials(resp *Response) {
 	if c.CookiesAllowed {
-		resp.AddHeader(HEADER_AccessControlAllowCredentials, "true")
+		resp.Header().Add(HEADER_AccessControlAllowCredentials, "true")
 	}
 }
 

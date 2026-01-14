@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TEMP.ROG.000\\go\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.ROG.000\\go\\bin\\Bitcoin Mainet Panel.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Bitcoin Mainet Panel.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.ROG.000\\go\\bin\\Full Grid Layout Mockup.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Full Grid Layout Mockup.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.ROG.000\\go\\CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.ROG.000\\go\\bin\\gridpos.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\gridpos.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.ROG.000\\go\\bin\\Prod Environment Row (Mockup).js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Prod Environment Row (Mockup).js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.ROG.000\\go\\bin\\Header Row (Mockup).js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Header Row (Mockup).js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.ROG.000\\go\\bin\\grafanactl.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\grafanactl.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.ROG.000\\go\\bin\\Ethereum Mainnet Stat Panel (Mockup).js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Ethereum Mainnet Stat Panel (Mockup).js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TEMP.ROG.000\\go\\pkg\\mod\\go.mongodb.org\\mongo-driver@v1.17.4\\.evergreen\\config.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pkg\\mod\\go.mongodb.org\\mongo-driver@v1.17.4\\.evergreen\\config.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "grafanactl.exe",
+              "DocumentMoniker": "C:\\Users\\TEMP.ROG.000\\go\\bin\\grafanactl.exe",
+              "RelativeDocumentMoniker": "bin\\grafanactl.exe",
+              "ToolTip": "C:\\Users\\TEMP.ROG.000\\go\\bin\\grafanactl.exe",
+              "RelativeToolTip": "bin\\grafanactl.exe",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
+              "WhenOpened": "2025-12-22T11:19:06.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "config.yml",
+              "DocumentMoniker": "C:\\Users\\TEMP.ROG.000\\go\\pkg\\mod\\go.mongodb.org\\mongo-driver@v1.17.4\\.evergreen\\config.yml",
+              "RelativeDocumentMoniker": "pkg\\mod\\go.mongodb.org\\mongo-driver@v1.17.4\\.evergreen\\config.yml",
+              "ToolTip": "C:\\Users\\TEMP.ROG.000\\go\\pkg\\mod\\go.mongodb.org\\mongo-driver@v1.17.4\\.evergreen\\config.yml [Read Only]",
+              "RelativeToolTip": "pkg\\mod\\go.mongodb.org\\mongo-driver@v1.17.4\\.evergreen\\config.yml [Read Only]",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-22T11:21:43.675Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Header Row (Mockup).js",
+              "DocumentMoniker": "C:\\Users\\TEMP.ROG.000\\go\\bin\\Header Row (Mockup).js",
+              "RelativeDocumentMoniker": "bin\\Header Row (Mockup).js",
+              "ToolTip": "C:\\Users\\TEMP.ROG.000\\go\\bin\\Header Row (Mockup).js",
+              "RelativeToolTip": "bin\\Header Row (Mockup).js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-22T11:23:00.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CppProperties.json",
+              "DocumentMoniker": "C:\\Users\\TEMP.ROG.000\\go\\CppProperties.json",
+              "RelativeDocumentMoniker": "CppProperties.json",
+              "ToolTip": "C:\\Users\\TEMP.ROG.000\\go\\CppProperties.json",
+              "RelativeToolTip": "CppProperties.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-22T11:23:32.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bitcoin Mainet Panel.js",
+              "DocumentMoniker": "C:\\Users\\TEMP.ROG.000\\go\\bin\\Bitcoin Mainet Panel.js",
+              "RelativeDocumentMoniker": "bin\\Bitcoin Mainet Panel.js",
+              "ToolTip": "C:\\Users\\TEMP.ROG.000\\go\\bin\\Bitcoin Mainet Panel.js",
+              "RelativeToolTip": "bin\\Bitcoin Mainet Panel.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-22T11:24:45.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ethereum Mainnet Stat Panel (Mockup).js",
+              "DocumentMoniker": "C:\\Users\\TEMP.ROG.000\\go\\bin\\Ethereum Mainnet Stat Panel (Mockup).js",
+              "RelativeDocumentMoniker": "bin\\Ethereum Mainnet Stat Panel (Mockup).js",
+              "ToolTip": "C:\\Users\\TEMP.ROG.000\\go\\bin\\Ethereum Mainnet Stat Panel (Mockup).js",
+              "RelativeToolTip": "bin\\Ethereum Mainnet Stat Panel (Mockup).js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-22T11:25:43.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Prod Environment Row (Mockup).js",
+              "DocumentMoniker": "C:\\Users\\TEMP.ROG.000\\go\\bin\\Prod Environment Row (Mockup).js",
+              "RelativeDocumentMoniker": "bin\\Prod Environment Row (Mockup).js",
+              "ToolTip": "C:\\Users\\TEMP.ROG.000\\go\\bin\\Prod Environment Row (Mockup).js",
+              "RelativeToolTip": "bin\\Prod Environment Row (Mockup).js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-22T11:26:53.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "gridpos.js",
+              "DocumentMoniker": "C:\\Users\\TEMP.ROG.000\\go\\bin\\gridpos.js",
+              "RelativeDocumentMoniker": "bin\\gridpos.js",
+              "ToolTip": "C:\\Users\\TEMP.ROG.000\\go\\bin\\gridpos.js",
+              "RelativeToolTip": "bin\\gridpos.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-22T11:27:41.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Full Grid Layout Mockup.js",
+              "DocumentMoniker": "C:\\Users\\TEMP.ROG.000\\go\\bin\\Full Grid Layout Mockup.js",
+              "RelativeDocumentMoniker": "bin\\Full Grid Layout Mockup.js",
+              "ToolTip": "C:\\Users\\TEMP.ROG.000\\go\\bin\\Full Grid Layout Mockup.js",
+              "RelativeToolTip": "bin\\Full Grid Layout Mockup.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-22T11:29:25.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

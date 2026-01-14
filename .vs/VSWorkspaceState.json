@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "/pkg",
+    "/pkg/mod",
+    "/pkg/mod/cache",
+    "/pkg/mod/cache/download",
+    "/pkg/mod/cache/download/github.com",
+    "/pkg/mod/cache/download/github.com/go-chi",
+    "/pkg/mod/go.mongodb.org",
+    "/pkg/mod/go.mongodb.org/mongo-driver@v1.17.4",
+    "/pkg/mod/go.mongodb.org/mongo-driver@v1.17.4/.evergreen",
+    "/pkg/mod/sigs.k8s.io"
+  ],
+  "PreviewInSolutionExplorer": true
+}
