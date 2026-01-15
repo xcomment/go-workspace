@@ -1,3 +1,11 @@
+module example.com/your-module-name
+
+go 1.21
+
+require (
+    go.mongodb.org/mongo-driver v1.17.0
+)
+
 # Copilot Instructions for MongoDB Go Driver (v1.17.x)
 
 ## Project Overview

@@ -20,7 +20,8 @@
 			"franneck94.c-cpp-runner",
 			"salesforce.salesforcedx-vscode-apex-debugger",
 			"salesforce.salesforcedx-vscode-apex-replay-debugger",
-			"utsavm9.c-cpp-flag-debugging"
+			"utsavm9.c-cpp-flag-debugging",
+			"github.vscode-pull-request-github"
 		]
 	}
 }
