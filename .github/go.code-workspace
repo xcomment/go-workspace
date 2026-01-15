@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"terminal-keeper.killProcess": false,
+		"terminal-keeper.wslSupport": false,
+		"terminal-keeper.quickRun": true,
+		"terminal-keeper.hideCommandsInExplorerDescriptions": false,
+		"powershell.cwd": "go"
+	},
+	"extensions": {
+		"recommendations": [
+			"wscats.delete-node-modules",
+			"franneck94.c-cpp-runner",
+			"salesforce.salesforcedx-vscode-apex-debugger",
+			"salesforce.salesforcedx-vscode-apex-replay-debugger",
+			"utsavm9.c-cpp-flag-debugging"
+		]
+	}
+}

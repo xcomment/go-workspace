@@ -1,17 +1,3 @@
-// The selected code is not valid JSONC for a devcontainer.json file.
-// If you want to add a Visual Studio Marketplace badge, use Markdown in your README, not in devcontainer.json.
-// Here is a minimal valid devcontainer.json example:
-{
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"golang.go",
-				"sarthikbhat.json-server"
-			]
-		}
-	},
-	"features": {},
-	"image": "mcr.microsoft.com/devcontainers/go:1.22",
-	"name": "Go Dev Container",
-	"settings": {}
-}
+<a href="https://marketplace.visualstudio.com/items?itemName=publishername.extensionname">
+	<img src="https://vsmarketplacebadges.dev/badge_title/publishername.extensionname.svg" alt="Visual Studio Marketplace badge for publishername extensionname displaying badge_title text in a clean and professional style">
+</a>
